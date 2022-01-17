@@ -36,7 +36,7 @@ func parsear(entrada string) int {
 	return operador
 }
 
-func leerEntrada() string {
+func LeerEntrada() string {
 	// Lee el input del usuario desde consola
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Scan()
